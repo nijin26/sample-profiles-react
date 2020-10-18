@@ -1,0 +1,61 @@
+.profile__container {
+  width: 90%;
+  margin: 20px auto;
+  height: max-content;
+  box-shadow: 0 0 3px #ccc;
+  background-color: #ffff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile__imageholder > img {
+  width: 320px;
+  height: 330px;
+  margin: 10px;
+  background-size: cover;
+  border-radius: 2px;
+}
+
+.profile__aboutsection {
+  width: 60%;
+  margin: 10px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.domain{
+  margin-top: -20px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.671)
+}
+
+footer{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.678);
+
+}
+
+.profile__skills {
+  margin: 2px;
+  margin-bottom: 5px;
+  padding: 4px 20px;
+  list-style: none;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+}
+
+@media (max-width: 480px) {
+  .profile__container{
+    justify-content: center;
+  }
+  footer{
+    margin-top: 10px;
+    width:100%;
+  }
+}
